@@ -34,7 +34,7 @@ export default function SignupModal() {
       photoURL: `/assets/pfp${Math.ceil(Math.random() * 6)}.png`
     })
 
-    // console.log('updated photourl', auth.currentUser)
+    console.log('updated photourl', auth.currentUser)
 
     router.reload()
   
